@@ -1,0 +1,19 @@
+<br>  
+
+
+## **Drive Summaries**  
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+This is a dummy page showing how the tables produced by rectable appear online. We can add as much or as little to these pages as we wish - whatever is deemed most important for the users. As we get more complex with what we want to include, we can either add all of the tables here are create new pages for specific sub-sections of pages. Up to the team!
+
+```{r, include=FALSE}
+library(reactable)
+```
+
+
+```{r table, echo=FALSE}
+reactable(iris)
+```

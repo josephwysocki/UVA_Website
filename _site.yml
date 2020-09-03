@@ -1,0 +1,20 @@
+name: "uva-football"
+output_dir: "."
+navbar:
+  title: "Virginia Cavaliers"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+    - text: "Drive Summaries"
+      href: test_table.html
+
+
+output:
+  html_document:
+    theme: cosmo
+    highlight: textmate
+    include:
+      after_body: footer.html
+    css: styles.css
